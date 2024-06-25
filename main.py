@@ -16,7 +16,5 @@ while True:
     current_time = current_time.replace(day_of_week, '')
     current_time = current_time.replace(year_and_sec, '')
     if current_time == alarm_time:
-        print("alarm")
+        playsound('ringtone.mp3')
         break
-
-playsound('ringtone.mp3')
