@@ -1,5 +1,5 @@
 import time
-
+from playsound import playsound
 
 print("When would you like your alarm to be set for?")
 
@@ -19,4 +19,4 @@ while True:
         print("alarm")
         break
 
-
+playsound('ringtone.mp3')
